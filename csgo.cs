@@ -127,19 +127,7 @@ namespace hazedumper
         public const Int32 dwGameRulesProxy = 0x52BF28C;
         public const Int32 dwGetAllClasses = 0xDB101C;
         public const Int32 dwGlobalVars = 0x588CF0;
-        public const Int32 dwGlowObjectManager = 0x52EA640("0F 11 05 ? ? ? ? 83 C8 01" + 3);
-        struct GlowObjectDefiniton_t
-        {
-        BYTE nextFreeSlot[0x4]; //
-        BYTE entity[0x4];
-        float r;
-        float g;
-        float b;
-        float a;
-        BYTE pad0[0x10];
-        bool m_bRenderWhenOccluded;
-        BYTE pad1[0xF];
-        };
+        public const Int32 dwGlowObjectManager = 0x52EA640;
         public const Int32 dwInput = 0x51F3770;
         public const Int32 dwInterfaceLinkList = 0x944B44;
         public const Int32 dwLocalPlayer = 0xD892CC;
